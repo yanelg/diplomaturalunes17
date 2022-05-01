@@ -1,0 +1,17 @@
+.contenedor{
+	background-color: blue;
+	display: inline-flex;
+	/*display: flex;*/
+}
+
+.item{
+	background-color: #ccc;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
