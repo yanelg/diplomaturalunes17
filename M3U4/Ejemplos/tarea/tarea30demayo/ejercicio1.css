@@ -1,0 +1,17 @@
+.cuadrado {
+    width: 10000px;
+    height: 1000px;
+    box-sizing: border-box;
+}
+
+.cuadrado.amarillo {
+    background: rgb(234, 242, 81);
+}
+
+.cuadrado.verde {
+    background: rgb(39, 160, 39);
+}
+
+.cuadrado.azul {
+    background: rgb(50, 32, 207);
+}
