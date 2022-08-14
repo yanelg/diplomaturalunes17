@@ -1,0 +1,46 @@
+.caja{
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    border-style: solid;
+    height: 400px;
+    width: 400px;
+    
+    /*display: flex;*/
+}
+
+.item {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.item:nth-child(1){
+    /* position:estatic; */
+    margin:0 auto;
+    height: 30%;
+    width: 30%;
+    border: 0px solid red;
+    background-color: red;
+}
+.item:nth-child(2){
+    /* position:estatic; */
+    margin:0 auto;
+    height: 30%;
+    width: 30%;
+    border: 0px solid blue;
+    background-color: blue;
+}
+.item:nth-child(3){
+    /* position:estatic; */
+    margin:0 auto;
+    height: 30%;
+    width: 30%;
+    border: 0px solid green;
+    background-color: green;
+}

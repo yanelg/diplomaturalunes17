@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como llego?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Ms+Madi&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/transportes.css">
+    <link rel="stylesheet" href="calculo_distancia.html">
+
+
+</head>
+
+<body>
+
+    <script>
+        //var nombre;
+        //var distancia a recorrer;
+        var nombre = "";
+        var distancia_a_recorrer;
+        nombre = prompt("Ingrese su nombre: ", "");
+        distancia_a_recorrer = prompt("Ingrese la distancia a recorrer: ","");
+        
+        if ((distancia_a_recorrer >= 0) && (distancia_a_recorrer <= 1000)) {
+            document.write("Hola " + nombre + " te conviene ir a pie")
+        } else if ((distancia_a_recorrer >= 1001) && (distancia_a_recorrer <= 10000)) {
+            document.write("Hola " + nombre + " te conviene ir en bicicleta");
+        } else if ((distancia_a_recorrer >= 10001) && (distancia_a_recorrer <= 30000)) {
+            document.write("Hola " + nombre + " te conviene ir en colectivo");
+        } else if ((distancia_a_recorrer >= 30001) && (distancia_a_recorrer <= 100000)) {
+            document.write("Hola " + nombre + " te conviene ir en Auto");
+        } else if ((distancia_a_recorrer >= 100001)) {
+            document.write("Hola " + nombre + " te conviene ir en avión");
+        } else if ((distancia_a_recorrer <= 0)) { document.write("Hola " + nombre + " no podes poner una distancia menor a 0") };
+    </script>
+</body>
+
+</html>
